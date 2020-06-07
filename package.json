@@ -1,0 +1,18 @@
+{
+    "name": "chat-master",
+    "version": "1.0.0",
+    "description": "Realtime chat application with rooms",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Aman thukral",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "moment": "^2.26.0",
+        "socket.io": "^2.3.0"
+    }
+    
+}
